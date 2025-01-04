@@ -1,0 +1,4 @@
+1)Open the terminal
+2)Move to the root directory of the project.
+3)Run the command `npm install` to install all the dependencies.
+4)Run the command `npm start` to start the development server.

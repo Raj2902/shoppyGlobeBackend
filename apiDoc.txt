@@ -1,0 +1,21 @@
+API's : (port:3000)
+
+User API's :
+
+1) /register (POST) : To register a new user.
+2) /login (POST) : To login the user.
+
+Product API's :
+
+1) /products (GET) : Fetch the list of products from MongoDB.
+2) /product/:id (DELETE) : Delete a specific product using product id.
+3) /product/:id (PUT) : Update a specific product using product id.
+4) /product (POST) : Create a new product.
+5) /products/:id (GET) : Fetch a specific product using product id.
+
+Cart API's :
+
+1) /cart/:id (PUT) : update the quantity of the product in the cart.
+2) /cart (POST) : add a product to the cart.
+3) /cart (GET) : get all the prorducts from the cart.
+4) /cart/:id (DELETE) : delete a specific product from the cart.
